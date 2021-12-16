@@ -21,7 +21,7 @@ const App = () => {
        <Route path="/contact" component={Contact} exact></Route>
        <Redirect  to="/" />
      </Switch><br></br>
-     <br></br>
+     <br>kunak</br>
       <Footer />
     </>
   )
