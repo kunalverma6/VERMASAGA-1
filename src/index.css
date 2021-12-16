@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&family=Open+Sans:wght@300&display=swap');
+* {
+  
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand{
+color: purple !important;
+font-size: 1.9rem !important;
+}
+
+.navbar a {
+  font-size: 1.3rem !important;
+  text-transform: capitalize;
+}
+
+.menu-active{
+  font-weight: bold;
+  border-bottom: 20px solid rgb(100, 102, 102);
+}
+
+.navbar a:hover{
+  color: rgb(252, 99, 11) !important;
+}
+
+img{
+  float: left !important;
+}
+strong{
+  text-shadow: rgb(255, 255, 255);
+}
+
+#header{
+  width: 200%;
+  height: 80vh;
+  margin-top: 180px;
+  margin-bottom: 20px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header h2 {
+  font-size: 24px;
+  color: rgb(224, 64, 152);
+}
+#header .animated{
+  animation: up down 2s ease-in-out infinite alternate-reverse both ;
+}
